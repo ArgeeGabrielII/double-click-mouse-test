@@ -1,29 +1,63 @@
-# DoubleClickMouseTest
+# Double Click Mouse Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
+The Double Click Mouse Test is a simple web-based application for testing the double-click functionality of your computer mouse. This tool can help you determine if your mouse is registering double-clicks correctly or if it's exhibiting any issues.
 
-Mouse Test for Left / Right click Just to confirm of replacement of clicker, works!
+## Table of Contents
+- Introduction
+- Features
+- Getting Started
+-- Prerequisites
+-- Installation
+- Usage
+- Contributing
+- License
 
-## Development server
+## Introduction
+Double-click issues in computer mice can be frustrating, leading to difficulties in selecting files, opening applications, and interacting with various software. The Double Click Mouse Test aims to provide a simple yet effective way to diagnose and assess the double-click accuracy of your mouse.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
+- Easy-to-use web interface for testing double-click functionality.
+- Customizable test duration to simulate real-world usage.
+- Visual feedback on the test results.
+- Compatible with most modern web browsers.
+- Open-source and easily accessible for contributions and improvements.
 
-## Code scaffolding
+## Getting Started
+Follow these instructions to get the Double Click Mouse Test up and running on your local machine.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
+A web browser (Chrome, Firefox, Safari, etc.) with JavaScript enabled.
 
-## Build
+### Installation
+1. Clone the repository to your local machine:
+```
+git clone https://github.com/ArgeeGabrielII/double-click-mouse-test.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Navigate to the repository directory:
+```
+cd double-click-mouse-test
+```
+3. Open the index.html file in your preferred web browser.
 
-## Running unit tests
+## Usage
+1. Open the index.html file in your web browser.
+2. Click the "Start Test" button to begin the double-click test.
+3. Double-click the blue box as many times as possible within the specified test duration.
+4. Once the test is complete, observe the visual feedback to see if any issues were detected.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contributing
+Contributions to the Double Click Mouse Test are welcome and encouraged! If you have any improvements, bug fixes, or new features to add, please follow these steps:
 
-## Running end-to-end tests
+1. Fork the repository.
+2. Create a new branch for your feature/fix: git checkout -b feature-name.
+3. Make your changes and commit them: git commit -m "Add some feature".
+4. Push the changes to your fork: git push origin feature-name.
+5. Create a pull request in the original repository.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Please ensure that your code follows the project's coding standards and includes appropriate documentation.
 
-## Further help
+## License
+This project is licensed under the MIT License.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feel free to use, modify, and distribute this project. If you find any issues or have suggestions for improvements, please create an issue or contribute to the project. Happy testing! 🖱️
